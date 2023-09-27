@@ -629,10 +629,11 @@ font-size: 80px;
         margin-right: 10px;
     }
     .logo img {
-        width: 80px;
+        width: 70px;
     }
     .navbar {
-        position: unset;
+        position: sticky;
+        top: 0;
     }
     .navbar li {
         padding: 1px;
@@ -643,7 +644,7 @@ font-size: 80px;
         padding: 0;
     }
     .darkmodebtn {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .button {
         margin: 3px;
