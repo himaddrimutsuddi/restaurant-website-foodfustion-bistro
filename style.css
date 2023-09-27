@@ -591,6 +591,7 @@ font-size: 80px;
     }
     .sec1 {
         flex-direction: column;
+        margin-top: 50px;
     }
     .img2 img {
         height: 300px;
@@ -647,8 +648,8 @@ font-size: 80px;
         font-size: 0.8rem;
     }
     .button {
-        margin: 3px;
-        padding: 4px 4px;
+        margin: 5px;
+        padding: 6px 6px;
         font-size: 12px;
     }
     .sec2header {
