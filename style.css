@@ -583,14 +583,26 @@ font-size: 80px;
 }
 
 @media (min-width: 300px) and (max-width: 530px){
+    .txt1 {
+        flex: none;
+    }
+    .img2 {
+        flex: none;
+    }
     .sec1 {
         flex-direction: column;
     }
+    .img2 img {
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
     .txt1 p:nth-child(1) {
-        font-size: 16px;
+        font-size: 28px;
     }
     .txt1 p:nth-child(2) {
-        font-size: 10px;
+        font-size: 18px;
     }
     .review {
         display: none;
@@ -617,26 +629,26 @@ font-size: 80px;
         margin-right: 10px;
     }
     .logo img {
-        width: 60px;
+        width: 80px;
     }
     .navbar {
         position: unset;
     }
     .navbar li {
         padding: 1px;
-        margin: 3px;
+        margin: 5px;
     }
     .navitems li a {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         padding: 0;
     }
     .darkmodebtn {
         font-size: 0.6rem;
     }
     .button {
-        margin: 2px;
-        padding: 3px 3px;
-        font-size: 7px;
+        margin: 3px;
+        padding: 4px 4px;
+        font-size: 12px;
     }
     .sec2header {
         font-size: 18px;
