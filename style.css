@@ -42,6 +42,8 @@ html {
     font-size: 30px;
     background-color: #fffbf6c5;
     cursor: pointer;
+    background: transparent;
+    margin-right: 24px;
 }
 
 body {
@@ -646,6 +648,7 @@ font-size: 80px;
     }
     .darkmodebtn {
         font-size: 0.8rem;
+        margin-right: 8px;
     }
     .button {
         margin: 5px;
