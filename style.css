@@ -676,12 +676,6 @@ font-size: 80px;
     .textright p {
         font-size: 1rem;
     }
-    #abt2 {
-        font-size: 16px;
-    }
-    .abt2 p{
-        font-size: 10px;
-    }
     .playstore, .appstore {
         padding: 2px 3px;
         font-size: 8px;
@@ -701,5 +695,11 @@ font-size: 80px;
     }
     .footer {
         width: 100%;
+    }
+    #abt2 {
+        font-size: 15px;
+    }
+    .abt2 p{
+        font-size: 10px;
     }
 }
